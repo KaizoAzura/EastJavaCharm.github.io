@@ -1,0 +1,1399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Charm of East Java</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icon link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- link CSS -->
+    <link rel="stylesheet" href="dist/style.css" />
+  </head>
+  <body>
+    <video
+      src="img/video-bg.mp4"
+      muted
+      loop
+      autoplay
+      playisinline
+      id="video-bg"
+    ></video>
+    <div class="overlay"></div>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-transparent p-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">East Java</a>
+        <a
+          class="nav-toggle pe-2 d-lg-none"
+          href="#offcanvasNavbar"
+          type="button"
+          data-bs-toggle="offcanvas"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+          ><i class="fa-solid fa-ellipsis"></i
+        ></a>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header justify-content-between">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">East java</h5>
+            <a
+              href="#offcanvasNavbar"
+              class="nav-close-toggle"
+              data-bs-dismiss="offcanvas"
+              ><i class="fa-solid fa-minus"></i
+            ></a>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Destination</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Activities</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News & Event</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn mt-3 mt-lg-0" href="#"
+                  >Contact Us
+                  <i class="fa-solid fa-arrow-up-right-from-square ms-2"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- hero section -->
+    <section class="hero d-flex justify-content-center align-items-center">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-xl-6 col-lg-5 hero-content text-center text-lg-start">
+            <h1>Discover the Beauty of East Java</h1>
+            <p class="my-3">
+              Explore the tropical landscapes, majestic volcanoes, and stunning
+              white sandy beaches of East Java.
+            </p>
+            <a href="#destinations" class="btn btn-primary mt-3 mb-5 mb-lg-0"
+              >Explore Destinations
+              <i class="fa-solid fa-arrow-up-right-from-square ms-2"></i
+            ></a>
+          </div>
+
+          <div class="col-xl-6 col-lg-7 hero-info">
+            <div id="carouselHero" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active mx-auto">
+                  <h1 class="mb-lg-3">Bromo Mountain</h1>
+                  <div class="row">
+                    <div class="col-12 mb-lg-3">
+                      <img
+                        src="img/hero-image-1.jpg"
+                        class="img-fluid"
+                        alt="hero image 1"
+                      />
+                    </div>
+                    <div class="col-6">
+                      <h3>
+                        <i class="fa-solid fa-arrow-up-wide-short me-2"></i
+                        >Height
+                      </h3>
+                      <p>2.329 m</p>
+                    </div>
+                    <div class="col-6">
+                      <h3>
+                        <i class="fa-solid fa-location-dot me-2"></i>Location
+                      </h3>
+                      <p>East Java, Tengger</p>
+                    </div>
+                    <div class="col-6">
+                      <h3>
+                        <i class="fa-solid fa-circle-info me-2"></i>Status
+                      </h3>
+                      <p>Active</p>
+                    </div>
+                    <div class="col-6">
+                      <h3>
+                        <i class="fa-solid fa-earth-asia me-2"></i>Geograph
+                      </h3>
+                      <p>7° 56' 30" Lat and 112° 57' Long</p>
+                    </div>
+                    <div class="col-12">
+                      <h3>
+                        <i class="fa-solid fa-align-justify me-2"></i
+                        >Description
+                      </h3>
+                      <p>
+                        Mount Bromo is an active volcano located in East Java,
+                        Indonesia. It is part of the Bromo Tengger Semeru
+                        National Park, which is one of the most visited tourist
+                        attractions in Java. The volcano stands at approximately
+                        2,329 meters (7,641 feet) tall and is renowned for its
+                        stunning sunrise views and otherworldly landscapes.
+                      </p>
+
+                      <p>
+                        The history of Mount Bromo is deeply intertwined with
+                        the geological and cultural heritage of the region. Its
+                        formation is believed to date back thousands of years,
+                        with eruptions shaping its distinctive crater and
+                        surrounding landscapes over time. The volcano has a
+                        history of periodic eruptions, with notable events
+                        recorded throughout the centuries.
+                      </p>
+                    </div>
+                    <div class="col-12 d-flex justify-content-between mt-lg-3">
+                      <p><a href="#">See more </a></p>
+                      <div class="social-media d-flex">
+                        <p>
+                          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </p>
+                        <p>
+                          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        </p>
+                        <p>
+                          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <h1 class="mb-lg-3">Ijen crater</h1>
+                  <div class="row">
+                    <div class="col-12 mb-lg-3">
+                      <img
+                        src="img/hero-image-2.jpg"
+                        class="img-fluid"
+                        alt="Hero image 2"
+                      />
+                    </div>
+                    <div class="col-6">
+                      <h3>
+                        <i class="fa-solid fa-arrow-up-wide-short me-2"></i
+                        >Height
+                      </h3>
+                      <p>2.769 m</p>
+                    </div>
+                    <div class="col-6">
+                      <h3>
+                        <i class="fa-solid fa-location-dot me-2"></i>Location
+                      </h3>
+                      <p>East Java, Banyuwangi</p>
+                    </div>
+                    <div class="col-6">
+                      <h3>
+                        <i class="fa-solid fa-circle-info me-2"></i>Status
+                      </h3>
+                      <p>Active</p>
+                    </div>
+                    <div class="col-6">
+                      <h3>
+                        <i class="fa-solid fa-earth-asia me-2"></i>Geograph
+                      </h3>
+                      <p>8.058°S 114.242°E</p>
+                    </div>
+                    <div class="col-12">
+                      <h3>
+                        <i class="fa-solid fa-align-justify me-2"></i
+                        >Description
+                      </h3>
+                      <p>
+                        Kawah Ijen is renowned for its stunning
+                        turquoise-colored acidic crater lake, which is one of
+                        the largest in the world. The lake is approximately 1
+                        kilometer in diameter and contains highly acidic water
+                        with a pH as low as 0.5. The unique color of the lake is
+                        due to the presence of dissolved sulfur and other
+                        minerals.
+                      </p>
+
+                      <p>
+                        One of the most distinctive features of Kawah Ijen is
+                        the presence of sulfur vents and fumaroles around the
+                        crater rim. These vents emit volcanic gases, including
+                        sulfur dioxide, which ignite upon contact with the air,
+                        creating mesmerizing blue flames known as "blue fire."
+                        The blue flames are most visible at night, offering a
+                        spectacular natural phenomenon.
+                      </p>
+
+                      <p>
+                        Despite its popularity as a tourist destination, Kawah
+                        Ijen faces environmental challenges due to sulfur mining
+                        activities and the impact of tourism. Efforts are
+                        underway to promote sustainable tourism practices and
+                        conserve the fragile ecosystem of the crater and its
+                        surrounding areas.
+                      </p>
+                    </div>
+                    <div class="col-12 d-flex justify-content-between mt-lg-3">
+                      <p><a href="#">See more </a></p>
+                      <div class="social-media d-flex">
+                        <p>
+                          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </p>
+                        <p>
+                          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        </p>
+                        <p>
+                          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <h1 class="mb-lg-3">Papuma Beach</h1>
+                  <div class="row">
+                    <div class="col-12 mb-lg-3">
+                      <img
+                        src="img/hero-image-3.jpg"
+                        class="img-fluid"
+                        alt="hero image 3"
+                      />
+                    </div>
+                    <div class="col-6">
+                      <h3><i class="fa-solid fa-sun me-2"></i>Time to Visit</h3>
+                      <p>All year round</p>
+                    </div>
+                    <div class="col-6">
+                      <h3>
+                        <i class="fa-solid fa-location-dot me-2"></i>Location
+                      </h3>
+                      <p>East Java, Jember</p>
+                    </div>
+                    <div class="col-6">
+                      <h3>
+                        <i class="fa-solid fa-person-swimming me-2"></i
+                        >Activities
+                      </h3>
+                      <p>Swimming, snorkeling, etc</p>
+                    </div>
+                    <div class="col-6">
+                      <h3>
+                        <i class="fa-solid fa-umbrella-beach me-2"></i
+                        >Facilities
+                      </h3>
+                      <p>Beach huts, restaurants, etc</p>
+                    </div>
+                    <div class="col-6">
+                      <h3><i class="fa-solid fa-bus me-2"></i>Accessibility</h3>
+                      <p>Accessible by car or motorcycle</p>
+                    </div>
+                    <div class="col-12">
+                      <h3>
+                        <i class="fa-solid fa-align-justify me-2"></i
+                        >Description
+                      </h3>
+                      <p>
+                        Papuma Beach is a stunning coastal destination located
+                        in Jember, East Java, Indonesia. Known for its pristine
+                        white sandy beaches and crystal-clear turquoise waters,
+                        Papuma Beach offers visitors a tranquil escape
+                        surrounded by natural beauty.
+                      </p>
+                      <p>
+                        The beach is ideal for swimming, snorkeling, and
+                        surfing, with gentle waves and a refreshing sea breeze.
+                        Visitors can also explore the nearby cliffs and caves or
+                        simply relax and enjoy the picturesque sunset views.
+                      </p>
+                      <p>
+                        Papuma Beach is equipped with various facilities,
+                        including beach huts, restaurants serving fresh seafood,
+                        showers, and ample parking space. It is accessible by
+                        car or motorcycle from the city center of Jember, making
+                        it a popular weekend getaway for locals and tourists
+                        alike.
+                      </p>
+                    </div>
+                    <div class="col-12 d-flex justify-content-between mt-lg-3">
+                      <p><a href="#">See more </a></p>
+                      <div class="social-media d-flex">
+                        <p>
+                          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </p>
+                        <p>
+                          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        </p>
+                        <p>
+                          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselHero"
+                data-bs-slide="prev"
+              >
+                <i class="fa-solid fa-angle-left"></i
+              ></a>
+              <a
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselHero"
+                data-bs-slide="next"
+              >
+                <i class="fa-solid fa-angle-right"></i
+              ></a>
+            </div>
+
+            <div class="modal-info">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <div class="card">
+                    <img
+                      src="img/hero-image-1.jpg"
+                      class="card-img-top"
+                      alt="hero image 1"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Bromo Mountain</h5>
+                      <p class="card-text">
+                        Mount Bromo is an active volcano located in East Java,
+                        Indonesia.
+                      </p>
+                      <button
+                        type="button"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modal1"
+                      >
+                        Read More<i
+                          class="fa-solid fa-book-open-reader ms-2"
+                        ></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="card">
+                    <img
+                      src="img/hero-image-2.jpg"
+                      class="card-img-top"
+                      alt="hero image 2"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Ijen Crater</h5>
+                      <p class="card-text">
+                        Kawah Ijen is renowned for its stunning
+                        turquoise-colored acidic crater lake
+                      </p>
+                      <button
+                        type="button"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modal2"
+                      >
+                        Read More<i
+                          class="fa-solid fa-book-open-reader ms-2"
+                        ></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="card">
+                    <img
+                      src="img/hero-image-3.jpg"
+                      class="card-img-top"
+                      alt="hero image 3"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Papuma Beach</h5>
+                      <p class="card-text">
+                        Papuma Beach is a stunning coastal destination located
+                        in Jember, East Java, Indonesia.
+                      </p>
+                      <button
+                        type="button"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modal3"
+                      >
+                        Read More<i
+                          class="fa-solid fa-book-open-reader ms-2"
+                        ></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- modal info -->
+            <div class="modal fade" id="modal1">
+              <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header justify-content-between">
+                    <h5 class="modal-title">Bromo Mountain</h5>
+                    <button
+                      type="button"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <i class="fa-solid fa-minus"></i>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="col-12">
+                      <img
+                        src="img/hero-image-1.jpg"
+                        class="img-fluid mb-3"
+                        alt="hero image 1"
+                      />
+                    </div>
+
+                    <div class="hero-info row">
+                      <div class="col-6">
+                        <h3>
+                          <i class="fa-solid fa-arrow-up-wide-short me-2"></i
+                          >Height
+                        </h3>
+                        <p>2.329 m</p>
+                      </div>
+                      <div class="col-6">
+                        <h3>
+                          <i class="fa-solid fa-location-dot me-2"></i>Location
+                        </h3>
+                        <p>East Java, Tengger</p>
+                      </div>
+                      <div class="col-6">
+                        <h3>
+                          <i class="fa-solid fa-circle-info me-2"></i>Status
+                        </h3>
+                        <p>Active</p>
+                      </div>
+                      <div class="col-6">
+                        <h3>
+                          <i class="fa-solid fa-earth-asia me-2"></i>Geograph
+                        </h3>
+                        <p>7° 56' 30" Lat and 112° 57' Long</p>
+                      </div>
+                      <div class="col-12">
+                        <h3>
+                          <i class="fa-solid fa-align-justify me-2"></i
+                          >Description
+                        </h3>
+                        <p>
+                          Mount Bromo is an active volcano located in East Java,
+                          Indonesia. It is part of the Bromo Tengger Semeru
+                          National Park, which is one of the most visited
+                          tourist attractions in Java. The volcano stands at
+                          approximately 2,329 meters (7,641 feet) tall and is
+                          renowned for its stunning sunrise views and
+                          otherworldly landscapes.
+                        </p>
+
+                        <p>
+                          The history of Mount Bromo is deeply intertwined with
+                          the geological and cultural heritage of the region.
+                          Its formation is believed to date back thousands of
+                          years, with eruptions shaping its distinctive crater
+                          and surrounding landscapes over time. The volcano has
+                          a history of periodic eruptions, with notable events
+                          recorded throughout the centuries.
+                        </p>
+                      </div>
+                      <div
+                        class="col-12 d-flex justify-content-between mt-lg-3"
+                      >
+                        <p><a href="#">See more </a></p>
+                        <div class="modal-social-media d-flex">
+                          <p>
+                            <a href="#"
+                              ><i class="fa-brands fa-instagram"></i
+                            ></a>
+                          </p>
+                          <p>
+                            <a href="#"
+                              ><i class="fa-brands fa-facebook"></i
+                            ></a>
+                          </p>
+                          <p>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- modal2 -->
+
+            <div class="modal fade" id="modal2">
+              <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header justify-content-between">
+                    <h5 class="modal-title">Ijen Crater</h5>
+                    <button
+                      type="button"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <i class="fa-solid fa-minus"></i>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="col-12">
+                      <img
+                        src="img/hero-image-2.jpg"
+                        class="img-fluid mb-3"
+                        alt="hero image 2"
+                      />
+                    </div>
+
+                    <div class="hero-info row">
+                      <div class="col-6">
+                        <h3>
+                          <i class="fa-solid fa-arrow-up-wide-short me-2"></i
+                          >Height
+                        </h3>
+                        <p>2.769 m</p>
+                      </div>
+                      <div class="col-6">
+                        <h3>
+                          <i class="fa-solid fa-location-dot me-2"></i>Location
+                        </h3>
+                        <p>East Java, Banyuwangi</p>
+                      </div>
+                      <div class="col-6">
+                        <h3>
+                          <i class="fa-solid fa-circle-info me-2"></i>Status
+                        </h3>
+                        <p>Active</p>
+                      </div>
+                      <div class="col-6">
+                        <h3>
+                          <i class="fa-solid fa-earth-asia me-2"></i>Geograph
+                        </h3>
+                        <p>8.058°S 114.242°E</p>
+                      </div>
+                      <div class="col-12">
+                        <h3>
+                          <i class="fa-solid fa-align-justify me-2"></i
+                          >Description
+                        </h3>
+                        <p>
+                          Kawah Ijen is renowned for its stunning
+                          turquoise-colored acidic crater lake, which is one of
+                          the largest in the world. The lake is approximately 1
+                          kilometer in diameter and contains highly acidic water
+                          with a pH as low as 0.5. The unique color of the lake
+                          is due to the presence of dissolved sulfur and other
+                          minerals.
+                        </p>
+
+                        <p>
+                          One of the most distinctive features of Kawah Ijen is
+                          the presence of sulfur vents and fumaroles around the
+                          crater rim. These vents emit volcanic gases, including
+                          sulfur dioxide, which ignite upon contact with the
+                          air, creating mesmerizing blue flames known as "blue
+                          fire." The blue flames are most visible at night,
+                          offering a spectacular natural phenomenon.
+                        </p>
+
+                        <p>
+                          Despite its popularity as a tourist destination, Kawah
+                          Ijen faces environmental challenges due to sulfur
+                          mining activities and the impact of tourism. Efforts
+                          are underway to promote sustainable tourism practices
+                          and conserve the fragile ecosystem of the crater and
+                          its surrounding areas.
+                        </p>
+                      </div>
+
+                      <div
+                        class="col-12 d-flex justify-content-between mt-lg-3"
+                      >
+                        <p><a href="#">See more </a></p>
+                        <div class="modal-social-media d-flex">
+                          <p>
+                            <a href="#"
+                              ><i class="fa-brands fa-instagram"></i
+                            ></a>
+                          </p>
+                          <p>
+                            <a href="#"
+                              ><i class="fa-brands fa-facebook"></i
+                            ></a>
+                          </p>
+                          <p>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- modal3 -->
+
+            <div class="modal fade" id="modal3">
+              <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header justify-content-between">
+                    <h5 class="modal-title">Papuma Beach</h5>
+                    <button
+                      type="button"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <i class="fa-solid fa-minus"></i>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="col-12">
+                      <img
+                        src="img/hero-image-3.jpg"
+                        class="img-fluid mb-3"
+                        alt="hero image 3"
+                      />
+                    </div>
+
+                    <div class="hero-info row">
+                      <div class="col-6">
+                        <h3>
+                          <i class="fa-solid fa-sun me-2"></i>Time to Visit
+                        </h3>
+                        <p>All year round</p>
+                      </div>
+                      <div class="col-6">
+                        <h3>
+                          <i class="fa-solid fa-location-dot me-2"></i>Location
+                        </h3>
+                        <p>East Java, Jember</p>
+                      </div>
+                      <div class="col-6">
+                        <h3>
+                          <i class="fa-solid fa-person-swimming me-2"></i
+                          >Activities
+                        </h3>
+                        <p>Swimming, snorkeling, etc</p>
+                      </div>
+                      <div class="col-6">
+                        <h3>
+                          <i class="fa-solid fa-umbrella-beach me-2"></i
+                          >Facilities
+                        </h3>
+                        <p>Beach huts, restaurants, etc</p>
+                      </div>
+                      <div class="col-6">
+                        <h3>
+                          <i class="fa-solid fa-bus me-2"></i>Accessibility
+                        </h3>
+                        <p>Accessible by car or motorcycle</p>
+                      </div>
+                      <div class="col-12">
+                        <h3>
+                          <i class="fa-solid fa-align-justify me-2"></i
+                          >Description
+                        </h3>
+                        <p>
+                          Papuma Beach is a stunning coastal destination located
+                          in Jember, East Java, Indonesia. Known for its
+                          pristine white sandy beaches and crystal-clear
+                          turquoise waters, Papuma Beach offers visitors a
+                          tranquil escape surrounded by natural beauty.
+                        </p>
+                        <p>
+                          The beach is ideal for swimming, snorkeling, and
+                          surfing, with gentle waves and a refreshing sea
+                          breeze. Visitors can also explore the nearby cliffs
+                          and caves or simply relax and enjoy the picturesque
+                          sunset views.
+                        </p>
+                        <p>
+                          Papuma Beach is equipped with various facilities,
+                          including beach huts, restaurants serving fresh
+                          seafood, showers, and ample parking space. It is
+                          accessible by car or motorcycle from the city center
+                          of Jember, making it a popular weekend getaway for
+                          locals and tourists alike.
+                        </p>
+                      </div>
+
+                      <div
+                        class="col-12 d-flex justify-content-between mt-lg-3"
+                      >
+                        <p><a href="#">See more </a></p>
+                        <div class="modal-social-media d-flex">
+                          <p>
+                            <a href="#"
+                              ><i class="fa-brands fa-instagram"></i
+                            ></a>
+                          </p>
+                          <p>
+                            <a href="#"
+                              ><i class="fa-brands fa-facebook"></i
+                            ></a>
+                          </p>
+                          <p>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- end modal info -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end hero section -->
+
+    <!-- about section -->
+    <section class="about align-items-center d-flex">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <!-- Navigation Tabs -->
+            <div
+              class="nav flex-lg-column nav-pills align-items-start justify-content-center"
+              id="v-pills-tab"
+              role="tablist"
+            >
+              <button
+                class="nav-link active"
+                id="v-pills-tab1-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-tab1"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-tab1"
+                aria-selected="true"
+              >
+                About Us
+              </button>
+              <button
+                class="nav-link"
+                id="v-pills-tab2-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-tab2"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-tab2"
+                aria-selected="false"
+              >
+                Location
+              </button>
+              <button
+                class="nav-link"
+                id="v-pills-tab3-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-tab3"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-tab3"
+                aria-selected="false"
+              >
+                Tourist attraction
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <!-- Tab Content -->
+            <div class="tab-content" id="v-pills-tabContent">
+              <div
+                class="tab-pane fade show active text-start"
+                id="v-pills-tab1"
+                role="tabpanel"
+                aria-labelledby="v-pills-tab1-tab"
+              >
+                <h3>About us</h3>
+                <p>
+                  Welcome to East Java, a land of diverse cultures, natural
+                  wonders, and rich heritage. Situated in the eastern part of
+                  the Indonesian archipelago, East Java boasts a unique blend of
+                  tradition and modernity, offering visitors a captivating
+                  journey through history, nature, and hospitality.
+                </p>
+                <p>
+                  East Java is home to a melting pot of cultures, with
+                  influences from Javanese, Madurese, Chinese, Arabic, and other
+                  ethnic groups. This diversity is reflected in the region's
+                  language, art, music, dance, and cuisine, creating a vibrant
+                  tapestry of traditions that captivates the senses and inspires
+                  exploration.
+                </p>
+                <p>
+                  From majestic volcanoes to pristine beaches and lush
+                  rainforests, East Java is blessed with a wealth of natural
+                  beauty. Mount Bromo, with its ethereal landscapes and
+                  breathtaking sunrises, is an iconic symbol of the region's
+                  volcanic legacy. Meanwhile, destinations like Papuma Beach and
+                  the Ijen Crater offer opportunities for relaxation and
+                  adventure amidst stunning coastal scenery and volcanic
+                  landscapes.
+                </p>
+                <p>
+                  East Java's rich history is evident in its ancient temples,
+                  colonial architecture, and archaeological sites. The majestic
+                  Borobudur and Prambanan temples stand as testament to the
+                  region's glorious past, while the remnants of Dutch colonial
+                  buildings in cities like Surabaya and Malang offer glimpses
+                  into Indonesia's colonial heritage.
+                </p>
+                <p>
+                  One of the highlights of visiting East Java is experiencing
+                  the warmth and hospitality of its people. Known for their
+                  friendliness and generosity, the locals welcome visitors with
+                  open arms, inviting them to immerse themselves in the region's
+                  cultural traditions and culinary delights. From savory dishes
+                  like rawon and soto ayam to sweet treats like onde-onde and
+                  lapis legit, East Java's cuisine tantalizes the taste buds and
+                  leaves a lasting impression.
+                </p>
+                <p class="mb-lg-4">
+                  As guardians of this natural and cultural treasure trove, East
+                  Java is committed to promoting sustainable tourism practices
+                  that preserve the region's beauty and heritage for future
+                  generations. Through community-based initiatives, conservation
+                  efforts, and responsible tourism development, East Java
+                  strives to create a balance between tourism and environmental
+                  preservation.
+                </p>
+                <a href="#"
+                  >See more about us<i
+                    class="fa-solid fa-arrow-up-right-from-square ms-2"
+                  ></i
+                ></a>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-tab2"
+                role="tabpanel"
+                aria-labelledby="v-pills-tab2-tab"
+              >
+                <h3>Location</h3>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4055966.760318024!2d110.94010619316072!3d-6.901959026839876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2da393f79feeb5c5%3A0x1030bfbca7cb850!2sJawa%20Timur!5e0!3m2!1sid!2sid!4v1710683453255!5m2!1sid!2sid"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+                <p>
+                  The landscape of East Java is characterized by a diverse range
+                  of geographical features, including towering volcanoes,
+                  fertile plains, rolling hills, and picturesque coastlines. The
+                  region is dominated by a series of volcanic peaks, with Mount
+                  Semeru, the highest volcano on Java, standing at an impressive
+                  3,676 meters above sea level.
+                </p>
+                <p>
+                  East Java is easily accessible by air, land, and sea. The
+                  region is served by several airports, including Juanda
+                  International Airport in Surabaya and Abdul Rachman Saleh
+                  Airport in Malang, offering domestic and international flights
+                  to various destinations. Additionally, East Java is
+                  well-connected by a network of highways and railways,
+                  providing convenient transportation options for travelers
+                  exploring the region.
+                </p>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-tab3"
+                role="tabpanel"
+                aria-labelledby="v-pills-tab3-tab"
+              >
+                <h3>Tourist attractions</h3>
+                <!-- Gallery -->
+                <div class="row">
+                  <div class="col-4 mb-4 mb-lg-0 p-1 p-md-2">
+                    <img
+                      src="img/tourist-1.jpg"
+                      class="w-100 shadow-1-strong rounded mb-4"
+                      alt="Tourist 1"
+                    />
+
+                    <img
+                      src="img/tourist-6.jpg"
+                      class="w-100 shadow-1-strong rounded mb-4"
+                      alt="Tourist 6"
+                    />
+                  </div>
+
+                  <div class="col-4 mb-4 mb-lg-0 p-1 p-md-2">
+                    <img
+                      src="img/tourist-2.jpg"
+                      class="w-100 shadow-1-strong rounded mb-4"
+                      alt="Tourist 2"
+                    />
+
+                    <img
+                      src="img/tourist-3.jpg"
+                      class="w-100 shadow-1-strong rounded mb-4"
+                      alt="Tourist 3"
+                    />
+                  </div>
+
+                  <div class="col-4 mb-4 mb-lg-0 p-1 p-md-2">
+                    <img
+                      src="img/tourist-4.jpg"
+                      class="w-100 shadow-1-strong rounded mb-4"
+                      alt="Tourist 4"
+                    />
+
+                    <img
+                      src="img/tourist-5.jpg"
+                      class="w-100 shadow-1-strong rounded mb-4"
+                      alt="Tourist 5"
+                    />
+                  </div>
+                </div>
+                <!-- Gallery -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end about section -->
+
+    <!-- destination section -->
+    <section class="destination container-fluid d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-4">
+            <h3>Popular Destination</h3>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="card p-2">
+              <div
+                id="carouselExampleSlidesOnly"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="img/bromo-5.jpg"
+                      class="d-block w-100"
+                      alt="bromo-5"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="img/bromo-6.jpg"
+                      class="d-block w-100"
+                      alt="bromo-6"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="img/bromo-4.jpg"
+                      class="d-block w-100"
+                      alt="bromo-4"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title">Bromo Mountain</h5>
+                <p class="card-text">
+                  is an active volcano in East Java, Indonesia
+                </p>
+                <div
+                  class="card-footer p-0 justify-content-between d-flex align-items-center"
+                >
+                  <a
+                    href="#"
+                    class="btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#bromoMountain"
+                    >More Info</a
+                  >
+                  <a
+                    href="#"
+                    class="btn-second"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title="Bookmark"
+                  >
+                    <i class="fa-regular fa-bookmark"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- modal destionation -->
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="bromoMountain"
+        tabindex="-1"
+        aria-labelledby="bromoMountainLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+          <div class="modal-content">
+            <div
+              class="modal-header d-flex justify-content-between align-items-center"
+            >
+              <h5 class="modal-title" id="bromoMountainLabel">
+                Bromo Mountain
+              </h5>
+              <button data-bs-dismiss="modal">
+                <i class="fa-solid fa-minus"></i>
+              </button>
+            </div>
+            <div class="modal-body pt-0">
+              <ul
+                class="nav nav-pills mb-3 sticky-top"
+                id="pills-tab"
+                role="tablist"
+              >
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="pills-home-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-overview"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-home"
+                    aria-selected="true"
+                  >
+                    Overview
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-profile-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-map"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-profile"
+                    aria-selected="false"
+                  >
+                    Map
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-contact-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-review"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-contact"
+                    aria-selected="false"
+                  >
+                    Review
+                  </button>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="pills-overview"
+                  role="tabpanel"
+                  aria-labelledby="pills-home-tab"
+                >
+                  <div class="col-12">
+                    <p>
+                      Mount Bromo is one of the most famous volcanoes in
+                      Indonesia, located in the Bromo Tengger Semeru National
+                      Park in East Java. This mountain has unique
+                      characteristics with its famous crescent-shaped crater and
+                      stunning landscape views.
+                    </p>
+                    <p>
+                      Mount Bromo is a popular tourist destination in Indonesia
+                      and is easily accessed from big cities such as Malang and
+                      Surabaya. Some popular tourist activities on Mount Bromo
+                      include:
+
+                      <li>Sunrise Viewing</li>
+                      <li>Tour Jeep</li>
+                      <li>Hiking</li>
+                    </p>
+                    <p>
+                      The weather around Mount Bromo tends to be cool with
+                      temperatures that can be quite cold, especially at night.
+                      The dry season, especially between April and November, is
+                      usually the best time to visit Mount Bromo because clear
+                      skies allow for beautiful views, especially at sunrise.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-map"
+                  role="tabpanel"
+                  aria-labelledby="pills-profile-tab"
+                >
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31612.36012390921!2d112.9324125566914!3d-7.9424929432158695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd637aaab794a41%3A0xada40d36ecd2a5dd!2sGn.%20Bromo!5e0!3m2!1sid!2sid!4v1710851065815!5m2!1sid!2sid"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    frameborder="0"
+                  >
+                  </iframe>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-review"
+                  role="tabpanel"
+                  aria-labelledby="pills-contact-tab"
+                >
+                  <div
+                    class="review-filter row justify-content-between align-items-center"
+                  >
+                    <div class="col-6 p-0">
+                      <select
+                        class="form-select"
+                        aria-label="Default select example"
+                      >
+                        <option value="1">Newest</option>
+                        <option value="2">Lastest</option>
+                        <option value="3">Popular</option>
+                        <option value="4">High Rating</option>
+                        <option value="5">Low Rating</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-12">
+                      <div
+                        class="user d-flex align-items-center justify-content-between mt-5"
+                      >
+                        <div class="user-account d-flex align-items-center">
+                          <a href="#" class="profil me-3"
+                            ><img src="img/user.jpg" alt="user profil"
+                          /></a>
+                          <h5>Jane Doe</h5>
+                        </div>
+                        <div class="dropdown">
+                          <button
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                          >
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                          </button>
+                          <ul class="dropdown-menu">
+                            <li>
+                              <a class="dropdown-item" href="#">Report</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Share</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 mt-3">
+                      <div class="rating d-flex">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <p class="ms-2">19 March 2024</p>
+                      </div>
+                      <p class="mt-3">
+                        In the desert, the temperature is very low in the
+                        morning, the view never makes you bored, but it's a bit
+                        complicated when you enter because there are lots of
+                        paths and it's "required" to take a local 4WD car, so be
+                        smart when choosing and bargaining. Going up to the
+                        crater is quite dangerous, many of the handles are loose
+                        and the contours go up and down, maybe not suitable for
+                        the elderly or children.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- review 2 -->
+                  <div class="row">
+                    <div class="col-12">
+                      <div
+                        class="user d-flex align-items-center justify-content-between mt-5"
+                      >
+                        <div class="user-account d-flex align-items-center">
+                          <a href="#" class="profil me-3"
+                            ><img src="img/user.jpg" alt="user profil"
+                          /></a>
+                          <h5>Jane Doe</h5>
+                        </div>
+                        <div class="dropdown">
+                          <button
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                          >
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                          </button>
+                          <ul class="dropdown-menu">
+                            <li>
+                              <a class="dropdown-item" href="#">Report</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Share</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 mt-3">
+                      <div class="rating d-flex">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <p class="ms-2">16 March 2024</p>
+                      </div>
+                      <p class="mt-3">
+                        The unforgettable beauty of Mount Bromo. Have been to
+                        this place 3 times and always want to come back.
+                      </p>
+
+                      <p>
+                        Apart from enjoying the natural beauty of Mount Bromo,
+                        tourists can experience horse riding and enjoy some
+                        delicious food at affordable prices
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- review 3 -->
+
+                  <div class="row">
+                    <div class="col-12">
+                      <div
+                        class="user d-flex align-items-center justify-content-between mt-5"
+                      >
+                        <div class="user-account d-flex align-items-center">
+                          <a href="#" class="profil me-3"
+                            ><img src="img/user.jpg" alt="user profil"
+                          /></a>
+                          <h5>Jane Doe</h5>
+                        </div>
+                        <div class="dropdown">
+                          <button
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                          >
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                          </button>
+                          <ul class="dropdown-menu">
+                            <li>
+                              <a class="dropdown-item" href="#">Report</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Share</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 mt-3">
+                      <div class="rating d-flex">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <p class="ms-2">19 March 2024</p>
+                      </div>
+                      <p class="mt-3">
+                        It's really beautiful, Masyaallah. The view is really
+                        beautiful. There are many scenic spots around there.
+                      </p>
+
+                      <p>
+                        Yesterday I went there by Jeep, because it was busy. If
+                        you're going alone or just the two of you, what's the
+                        best thing to wear?
+                      </p>
+
+                      <p>
+                        Lots of snacks there too. From snacks to heavy meals
+                        there are also available.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal-footer">
+              <a href="#" class="d-flex align-items-center"
+                >Travel now <i class="fa-solid fa-plane ms-2"></i
+              ></a>
+              <!-- Jika ingin menambahkan tombol lain, letakkan di sini -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end modal destination -->
+    </section>
+
+    <!-- link JS -->
+    <script src="dist/script.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
